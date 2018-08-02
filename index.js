@@ -27,8 +27,8 @@ function viewCart (){
               if(i!==cart.length-1){
                 myString+=", "
                 }
-                else{
-                  myString+="."
+              else{
+                myString+="."
                 }
               }
              }
