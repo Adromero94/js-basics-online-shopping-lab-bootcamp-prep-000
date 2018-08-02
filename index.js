@@ -17,9 +17,11 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here
+   const l = cart.length;
+   if (!l) {
+    return console.log("Your shopping cart is empty.");// write your code here
 }
-
+}
 function total() {
   // write your code here
 }
